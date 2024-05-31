@@ -33,8 +33,6 @@ class player:
         return f'[Player ID:{self.__idPlayer}, Player nickname:{self.__nickName}, Player energy:{self.__energy}]'
 
     def boost(self, charge):
-        if not isinstance(charge, int):
-            charge = 0
 
         new_energy = self.__energy + charge
         if new_energy > MAX_ENERGY:

@@ -1,6 +1,7 @@
-
 from jugador import player, MIN_ENERGY, MAX_ENERGY
 from game import *
+
+
 class Test:
     def test1(self):
         jugador = player(1, 'test')
