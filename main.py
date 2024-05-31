@@ -1,9 +1,9 @@
 
-from jugador import Player
-from game import Game
+from jugador import *
+from game import *
 
-p1 = Player(1, 'Jack russell')
-p2 = Player(2, 'Rusty kelpie')
+p1 = player(1, 'Jack russell')
+p2 = player(2, 'Rusty kelpie')
 
 g1 = Game(p1, p2, 3)
 
